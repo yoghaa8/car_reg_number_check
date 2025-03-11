@@ -1,0 +1,166 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "feature/car_details_validate.feature:3",
+      "name": "Validate the car details with car registration input",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "feature/car_details_validate.feature:4",
+          "match": {
+            "arguments": [],
+            "location": "steps/car_verify.py:7"
+          },
+          "name": "parse the input file and launch the website",
+          "result": {
+            "duration": 4.323430776596069,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "feature/car_details_validate.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/car_verify.py:13"
+          },
+          "name": "waiting for the results...",
+          "result": {
+            "duration": 2.0005369186401367,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "feature/car_details_validate.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "steps/car_verify.py:18"
+          },
+          "name": "validate for car_reg_num to the provided output",
+          "result": {
+            "duration": 28.55873203277588,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "feature/car_details_validate.feature:11",
+          "match": {
+            "arguments": [],
+            "location": "steps/car_verify.py:47"
+          },
+          "name": "printing the output...",
+          "result": {
+            "duration": 0.02081131935119629,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Users\\YS007\\test\\.venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Users\\YS007\\test\\.venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"steps\\car_verify.py\", line 50, in printOutput",
+              "    assert context.test_pass",
+              "           ^^^^^^^^^^^^^^^^^",
+              "AssertionError",
+              "",
+              "Captured logging:",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are ['AD58VNF']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW', 'KT17DLX', 'SG18HTN']",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are []",
+              "INFO:root:The car_reg_numbers are ['AD58VNF']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']",
+              "INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW', 'KT17DLX', 'SG18HTN']",
+              "INFO:root:The car details from website ['AD58VNF', 'BMW', '120D M SPORT', '2008']",
+              "INFO:root:The reg_num - AD58VNF",
+              "INFO:root:website_info - ['AD58VNF', 'BMW', '120D M SPORT', '2008']",
+              "INFO:root:no match",
+              "INFO:root:match found",
+              "INFO:root:From output_file - ['AD58VNF', 'BMW', '120D M SPORT', '2008']",
+              "INFO:root:no match",
+              "INFO:root:match found",
+              "INFO:root:no match",
+              "INFO:root:match found",
+              "INFO:root:The car details from website ['KT17DLX', 'SKODA', 'SUPERB SPORTLINE TDI S-A', '2017']",
+              "INFO:root:The reg_num - KT17DLX",
+              "INFO:root:website_info - ['KT17DLX', 'SKODA', 'SUPERB SPORTLINE TDI S-A', '2017']",
+              "INFO:root:no match",
+              "INFO:root:no match",
+              "INFO:root:no match",
+              "INFO:root:match found",
+              "INFO:root:From output_file - ['KT17DLX', 'SKODA', 'SUPERB SPORTLINE TDI S-A', '2017']",
+              "INFO:root:no match",
+              "INFO:root:no match",
+              "INFO:root:no match",
+              "INFO:root:match found",
+              "INFO:root:no match",
+              "INFO:root:no match",
+              "INFO:root:no match",
+              "INFO:root:match found",
+              "INFO:root:The car details from website ['SG18HTN', 'VOLKSWAGEN', 'GOLF SE NAVIGATION TSI EVO', '2018']",
+              "INFO:root:The reg_num - SG18HTN",
+              "INFO:root:website_info - ['SG18HTN', 'VOLKSWAGEN', 'GOLF SE NAVIGATION TSI EVO', '2018']",
+              "INFO:root:match found",
+              "INFO:root:From output_file - ['SG18HTN', 'VOLKSWAGEN', 'GOLF SE NAVIGATION TSI EVO', '2018']",
+              "INFO:root:match found",
+              "INFO:root:match found",
+              "INFO:root:The status of the car reg_num -- {'AD58VNF': 'Car Report match successful', 'BW57BOW': 'Car Report not available on the website', 'KT17DLX': 'Car Report match successful', 'SG18HTN': 'Car Report match successful'}"
+            ],
+            "status": "failed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "feature/car_details_validate.feature:1",
+  "name": "Car registration test",
+  "status": "failed",
+  "tags": []
+}
+]

@@ -1,0 +1,104 @@
+<testsuite name="feature.car_details_validate.Car registration test" tests="1" errors="0" failures="1" skipped="0" time="34.903511" timestamp="2025-03-11T13:34:45.896243" hostname="GBERALL847"><testcase classname="feature.car_details_validate.Car registration test" name="Validate the car details with car registration input" status="failed" time="34.903511"><failure type="AssertionError" message="">
+<![CDATA[
+Failing step: Then printing the output... ... failed in 0.021s
+Location: feature/car_details_validate.feature:11
+Traceback (most recent call last):
+  File "C:\Users\YS007\test\.venv\Lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "C:\Users\YS007\test\.venv\Lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "steps\car_verify.py", line 50, in printOutput
+    assert context.test_pass
+           ^^^^^^^^^^^^^^^^^
+AssertionError
+
+Captured logging:
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are ['AD58VNF']
+INFO:root:The car_reg_numbers are ['AD58VNF']
+INFO:root:The car_reg_numbers are ['AD58VNF']
+INFO:root:The car_reg_numbers are ['AD58VNF']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW', 'KT17DLX', 'SG18HTN']
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are []
+INFO:root:The car_reg_numbers are ['AD58VNF']
+INFO:root:The car_reg_numbers are ['AD58VNF']
+INFO:root:The car_reg_numbers are ['AD58VNF']
+INFO:root:The car_reg_numbers are ['AD58VNF']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW']
+INFO:root:The car_reg_numbers are ['AD58VNF', 'BW57BOW', 'KT17DLX', 'SG18HTN']
+INFO:root:The car details from website ['AD58VNF', 'BMW', '120D M SPORT', '2008']
+INFO:root:The reg_num - AD58VNF
+INFO:root:website_info - ['AD58VNF', 'BMW', '120D M SPORT', '2008']
+INFO:root:no match
+INFO:root:match found
+INFO:root:From output_file - ['AD58VNF', 'BMW', '120D M SPORT', '2008']
+INFO:root:no match
+INFO:root:match found
+INFO:root:no match
+INFO:root:match found
+INFO:root:The car details from website ['KT17DLX', 'SKODA', 'SUPERB SPORTLINE TDI S-A', '2017']
+INFO:root:The reg_num - KT17DLX
+INFO:root:website_info - ['KT17DLX', 'SKODA', 'SUPERB SPORTLINE TDI S-A', '2017']
+INFO:root:no match
+INFO:root:no match
+INFO:root:no match
+INFO:root:match found
+INFO:root:From output_file - ['KT17DLX', 'SKODA', 'SUPERB SPORTLINE TDI S-A', '2017']
+INFO:root:no match
+INFO:root:no match
+INFO:root:no match
+INFO:root:match found
+INFO:root:no match
+INFO:root:no match
+INFO:root:no match
+INFO:root:match found
+INFO:root:The car details from website ['SG18HTN', 'VOLKSWAGEN', 'GOLF SE NAVIGATION TSI EVO', '2018']
+INFO:root:The reg_num - SG18HTN
+INFO:root:website_info - ['SG18HTN', 'VOLKSWAGEN', 'GOLF SE NAVIGATION TSI EVO', '2018']
+INFO:root:match found
+INFO:root:From output_file - ['SG18HTN', 'VOLKSWAGEN', 'GOLF SE NAVIGATION TSI EVO', '2018']
+INFO:root:match found
+INFO:root:match found
+INFO:root:The status of the car reg_num -- {'AD58VNF': 'Car Report match successful', 'BW57BOW': 'Car Report not available on the website', 'KT17DLX': 'Car Report match successful', 'SG18HTN': 'Car Report match successful'}]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Validate the car details with car registration input
+    Given parse the input file and launch the website ... passed in 4.323s
+    Then waiting for the results... ... passed in 2.001s
+    And validate for car_reg_num to the provided output ... passed in 28.559s
+    Then printing the output... ... failed in 0.021s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
